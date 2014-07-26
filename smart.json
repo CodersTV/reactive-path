@@ -3,6 +3,6 @@
     "description": "Reactive path on client under Path namespace",
     "homepage": "https://github.com/gabrielhpugliese/meteor-reactive-path",
     "author": "Gabriel Henrique Pugliese <gabrielhpugliese@gmail.com>",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "git": "https://github.com/gabrielhpugliese/meteor-reactive-path"
 }
