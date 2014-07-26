@@ -11,7 +11,7 @@ Package.on_use(function (api, where) {
 });
 
 Package.on_test(function (api) {
-  api.use('meteor-reactive-path', 'client');
+  api.use('reactive-path', 'client');
   api.use(['tinytest', 'test-helpers', 'deps']);
   api.add_files('test.js', 'client');
 });
