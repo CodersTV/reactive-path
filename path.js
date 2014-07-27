@@ -37,9 +37,11 @@ if (typeof DepsPath === 'undefined') {
         deps.changed();
       };
 
-      innerChain = {set: set};
+      var innerChain = { set: set, get: get };
       innerChain.__proto__ = get.__proto__;
       get.__proto__ = innerChain;
+      
+      // This allows calling Path.get() or simply Path()
       return get;
     };
 }

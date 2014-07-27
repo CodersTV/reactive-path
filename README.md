@@ -1,7 +1,9 @@
 Meteor Reactive Path
 ================
 
-Just a package to set and get the raw path of an URL.
+Just a package to parse an URI and make it available as a reactive variable.
+
+Note that this package does not handle changing the browser history or related stuff.
 
 # Usage
 
