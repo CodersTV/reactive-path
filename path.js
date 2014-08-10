@@ -33,8 +33,10 @@ if (typeof DepsPath === 'undefined') {
         }
         value = value[0];
 
-        path = value;
-        deps.changed();
+        if (path !== value) {
+          path = value;
+          deps.changed();
+        }
       };
 
       var innerChain = { set: set, get: get };
