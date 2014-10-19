@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Reactive raw path on client under Path namespace",
-  version: "0.2.0",
+  version: "0.2.1",
   git: "https://github.com/CodersTV/reactive-path",
   name: "coderstv:reactive-path"
 });
@@ -16,7 +16,7 @@ Package.onUse(function (api, where) {
 });
 
 Package.onTest(function (api) {
-  api.use('reactive-path', 'client');
+  api.use('coderstv:reactive-path', 'client');
   api.use(['tinytest', 'test-helpers', 'deps']);
   api.add_files('test.js', 'client');
 });
