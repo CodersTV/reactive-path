@@ -1,8 +1,13 @@
 Package.describe({
-  summary: "Reactive raw path on client under Path namespace"
+  summary: "Reactive raw path on client under Path namespace",
+  version: "0.2.0",
+  git: "https://github.com/CodersTV/reactive-path",
+  name: "coderstv:reactive-path"
 });
 
-Package.on_use(function (api, where) {
+Package.onUse(function (api, where) {
+  api.versionsFrom('METEOR@0.9.0');
+
   api.use(['deps'], 'client');
 
   api.add_files(['path.js'], 'client');
@@ -10,7 +15,7 @@ Package.on_use(function (api, where) {
   api.export('Path', 'client');
 });
 
-Package.on_test(function (api) {
+Package.onTest(function (api) {
   api.use('reactive-path', 'client');
   api.use(['tinytest', 'test-helpers', 'deps']);
   api.add_files('test.js', 'client');

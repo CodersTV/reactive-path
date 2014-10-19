@@ -1,8 +1,8 @@
 {
-    "name": "reactive-path",
+    "name": "coderstv:reactive-path",
     "description": "Reactive path on client under Path namespace",
-    "homepage": "https://github.com/gabrielhpugliese/meteor-reactive-path",
+    "homepage": "https://github.com/CodersTV/reactive-path",
     "author": "Gabriel Henrique Pugliese <gabrielhpugliese@gmail.com>",
-    "version": "0.1.4",
-    "git": "https://github.com/gabrielhpugliese/meteor-reactive-path"
+    "version": "0.2.0",
+    "git": "https://github.com/CodersTV/reactive-path"
 }
