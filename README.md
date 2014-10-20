@@ -5,6 +5,13 @@ Just a package to parse an URI and make it available as a reactive variable.
 
 Note that this package does not handle changing the browser history or related stuff.
 
+# Install
+
+To install into a new project:
+```bash
+> meteor add coderstv:reactive-path
+```
+
 # Usage
 
 ## Set the path
